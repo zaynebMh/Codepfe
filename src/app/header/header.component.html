@@ -1,0 +1,9 @@
+
+<div *ngIf="isLoggedIn" class="header">
+  <a routerLink="/" class="logo">Pilot Project </a>
+  <div class="header-right">
+    <a (click)=" navigatetoProjet()">Projet</a>
+    <a (click)=" navigatetoOut()">LogOut</a>
+    <a routerLink="/about" routerLinkActive="active">About</a>
+  </div>
+</div>

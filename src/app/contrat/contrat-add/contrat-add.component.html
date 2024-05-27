@@ -1,0 +1,38 @@
+<div class="col-md-6 offset-md-3">
+  <h3>Ajouter un Contrat</h3>
+  <form [formGroup]="contratForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="intitule">Intitulé :</label>
+      <input type="text" class="form-control" id="intitule" formControlName="intitule" required>
+      <div *ngIf="contratForm.get('intitule')?.invalid && contratForm.get('intitule')?.touched" class="invalid-feedback">
+        Intitulé est requis
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="etablissement">Établissement :</label>
+      <input type="text" class="form-control" id="etablissement" formControlName="etablissement" required>
+      <div *ngIf="contratForm.get('etablissement')?.invalid && contratForm.get('etablissement')?.touched" class="invalid-feedback">
+        Établissement est requis
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="montant">Montant :</label>
+      <input type="number" class="form-control" id="montant" formControlName="montant" required>
+      <div *ngIf="contratForm.get('montant')?.invalid && contratForm.get('montant')?.touched" class="invalid-feedback">
+        Montant est requis
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="ref">Référence :</label>
+      <input type="text" class="form-control" id="ref" formControlName="ref" required>
+      <div *ngIf="contratForm.get('ref')?.invalid && contratForm.get('ref')?.touched" class="invalid-feedback">
+        Référence est requise
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-success">Enregistrer</button>
+  </form>
+</div>

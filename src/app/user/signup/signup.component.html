@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscription</title>
+</head>
+<body>
+  <div class="container">
+    <div class="signup-box">
+      <h2>Inscription</h2>
+      <form (ngSubmit)="signup()" [formGroup]="signupForm" class="signup-form">
+        <div class="form-group">
+          <label for="username">Nom d'utilisateur :</label>
+          <input type="text" id="username" formControlName="username">
+          <div *ngIf="signupForm.get('username')?.invalid && signupForm.get('username')?.touched" class="error-message">
+            Nom d'utilisateur requis
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email :</label>
+          <input type="email" id="email" formControlName="email">
+          <div *ngIf="signupForm.get('email')?.invalid && signupForm.get('email')?.touched" class="error-message">
+            Email requis
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="password">Mot de passe :</label>
+          <input type="password" id="password" formControlName="password">
+          <div *ngIf="signupForm.get('password')?.invalid && signupForm.get('password')?.touched" class="error-message">
+            Mot de passe requis (minimum 6 caractères)
+          </div>
+        </div>
+       
+        <!-- Bouton de soumission -->
+        <button type="submit" [disabled]="signupForm.invalid">S'inscrire</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

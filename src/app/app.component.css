@@ -1,0 +1,11 @@
+div {
+  color: white; /* Texte blanc sur fond bleu marine */
+  padding: 20px;
+  border-radius: 8px;
+  width: max-content;
+}
+
+h1 {
+  color: #dc3545; /* Rouge */
+  font-size: 40px;
+}

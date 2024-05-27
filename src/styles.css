@@ -1,0 +1,1473 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-RegularItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 250;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-Hairline.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 250;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-HairlineItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 280;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-Extrathin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 280;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-ExtrathinItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 350;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 350;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-LightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-BlackItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-Extrablack.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nomada Didone';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Nomada Didone'), url('https://fonts.cdnfonts.com/s/18719/NomadaDidone-ExtrablackItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  
+  /* latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  
+  /* cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  
+  /* greek-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+  
+  /* greek */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+  
+  /* vietnamese */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  
+  /* latin-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  
+  /* latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  
+  /* cyrillic */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  
+  /* greek-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+  
+  /* greek */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+  
+  /* vietnamese */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  
+  /* latin-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  
+  /* latin */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  
+  /* cyrillic */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  
+  /* greek-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+  
+  /* greek */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+  
+  /* vietnamese */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  
+  /* latin-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  
+  /* cyrillic */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  
+  /* greek-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+  
+  /* greek */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+  
+  /* vietnamese */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  
+  /* latin-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  
+  /* latin */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  
+  /* cyrillic */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  
+  /* greek-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+  
+  /* greek */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+  
+  /* vietnamese */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  
+  /* latin-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  
+  /* latin */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  
+  /* cyrillic */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  
+  /* greek-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+  
+  /* greek */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+  
+  /* vietnamese */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  
+  /* latin-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  
+  /* latin */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  
+  /* cyrillic */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  :root {
+    --primary-color: #00B5A6;
+    --secondary-color: #226A7D;
+    --third-color: #008F99;
+    --forth-color: #2F4858;
+    --fifth-color: #FEB63D;
+    --sixth-color: #FF8F6B;
+    --seventh-color: #F98383;
+    --eighth-color: #FF5F64;
+  }
+  
+  button:disabled {
+    color: #C1C4C9 !important;
+  }
+  
+  button:hover, .icone-x:hover {
+    opacity: 0.8;
+  }
+  
+  button:disabled:hover {
+    opacity: 1;
+  }
+  
+  .button-valid:active, .button-update:active {
+    background: var(--secondary-color);
+  }
+  
+  .input-required {
+    color: red;
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  html, body {
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    min-height: -webkit-fill-available;
+    height: 100vh;
+    padding: min(20px, env(safe-area-inset-top, 20px)) env(safe-area-inset-right, 20px) min(20px, env(safe-area-inset-bottom, 20px)) env(safe-area-inset-left, 20px);
+  }
+  
+  .arabic .title-1 {
+    direction: rtl;
+  }
+  
+  .title-1 {
+    text-align: center;
+    font: normal normal 800 32px/39px Montserrat;
+    letter-spacing: 0px;
+    color: var(--primary-color);
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .title-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font: normal normal bold 24px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #3B3B3B;
+    opacity: 1;
+  }
+  
+  .nowrap {
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .arabic .rtl-arabic {
+    direction: rtl;
+  }
+  
+  .arabic .title-4 {
+    text-align: right;
+  }
+  
+  .title-4 {
+    font: normal normal 800 32px/31px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-shadow: 0px 3px 6px #00000054;
+    opacity: 1;
+  }
+  
+  .button-1 {
+    background: var(--primary-color) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #F56A7D80;
+    border-color: var(--secondary-color);
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 600 14px/28px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    height: 34px;
+  }
+  
+  .button-white {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FFFFFF1A;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 600 15px/28px Montserrat;
+    letter-spacing: 0px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+  }
+  
+  .button-copy {
+    background: var(--primary-color) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #F56A7D80;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 600 14x/28px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    height: 35px;
+    width: 180px;
+  }
+  
+  .button-apple-1 {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px rgba(155, 155, 157, 0.5);
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 600 14x/28px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+  
+  }
+  
+  .button-facebook-1 {
+    background: #0011FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px rgba(86, 116, 217, 0.5);
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 600 14x/28px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  
+  }
+  
+  .button-instagram {
+    background: #f51284 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px rgba(208, 76, 142, 0.5);
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 600 14x/28px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    height: 35px;
+    width: 180px;
+  }
+  
+  .button-ignore {
+    /* UI Properties */
+    background: #3B3B3B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FFFFFF1A;
+    border-radius: 4px;
+    opacity: 1;
+    color: #FFFFFF;
+    font: normal normal 600 14px/28px Montserrat;
+    letter-spacing: 2px;
+    width: 150px;
+    height: 35px;
+    text-transform: uppercase;
+  
+  }
+  
+  .arabic .arab-text {
+    direction: rtl
+  }
+  
+  .button-next {
+    /* UI Properties */
+    background: var(--primary-color) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #F56A7D80;
+    opacity: 1;
+    color: #FFFFFF;
+    font: normal normal 600 14px/28px Montserrat;
+    letter-spacing: 2px;
+    width: 150px;
+    height: 35px;
+    text-transform: uppercase;
+  }
+  
+  .arabic .text-1 {
+    direction: rtl;
+  }
+  
+  .arabic .appointment-text {
+    direction: rtl;
+  }
+  
+  .text-1 {
+    font: normal normal bold 25px/39px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+  
+  .arabic .text-2 {
+    direction: rtl;
+  }
+  
+  .text-2 {
+    font: normal normal 600 20px/37px Montserrat;
+    letter-spacing: 0px;
+    color: #3B3B3B;
+    opacity: 1;
+  }
+  
+  .text-3 {
+    font: normal normal 600 16px/28px Montserrat;
+    letter-spacing: 0px;
+    color: #3B3B3B;
+    opacity: 1;
+  }
+  
+  .arabic .text-3 {
+    direction: rtl;
+  
+  }
+  
+  .text-4 {
+    text-align: center;
+    font: normal normal normal 11px/50px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  
+  .text-5 {
+    margin-top: 1%;
+    text-align: left;
+    font: normal normal 600 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #3B3B3B;
+    opacity: 1;
+  }
+  
+  .icon-svg {
+    position: absolute;
+    top: -25px;
+    right: 0;
+  }
+  
+  .date-text {
+    text-align: center;
+    font: normal normal 800 23px/39px Nomada Didone;
+    letter-spacing: 0px;
+    color: var(--primary-color);
+    opacity: 1;
+  }
+  
+  .card-Rit {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 10px 20px #00000029;
+    opacity: 1;
+    position: relative;
+  }
+  
+  .margin {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
+  .backdropBackground {
+    background: rgba(255, 253, 254, 0.66);
+  
+  }
+  
+  .backdropBackground-3 {
+    background: rgb(0, 0, 0);
+  
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .custom-dialog-container .mat-dialog-container {
+    padding: 0px !important;
+  }
+  
+  .backdropBackground-1 {
+    background: #4B4B4B;
+  }
+  
+  ngb-rating {
+    color: #decd0d;
+    font-size: 25px;
+  }
+  
+  .fc-slats td {
+    height: 100px !important;
+    font-size: 8px !important;
+  }
+  
+  /* Font color */
+  input.mat-input-element {
+  
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 13px/18px Montserrat;
+    letter-spacing: 0px;
+  
+    opacity: 1;
+  }
+  
+  .mat-form-field-appearance-outline .mat-form-field-infix {
+  
+    text-align: left;
+    font: normal normal 600 13px/18px Montserrat;
+    letter-spacing: 0px;
+  
+    opacity: 1;
+    padding: 10px 0 16px 0;
+  }
+  
+  .panel {
+    border-radius: 15px;
+    opacity: 1;
+    width: 100%;
+    margin-bottom: 10%;
+  
+  }
+  
+  .icon {
+    transform: scale(1.4);
+  }
+  
+  //input outline color
+  .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #6c6c6c;
+    opacity: 1 !important;
+  }
+  
+  //mat-input focused color
+  .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: #3B3B3B;
+    opacity: 1 !important;
+  }
+  
+  // mat-input error outline color
+  .mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid .mat-form-field-outline-thick {
+    color: #d51313;
+    opacity: 0.8 !important;
+  }
+  
+  // mat-input carent color
+  .mat-input-element {
+    caret-color: #080909;
+  }
+  
+  // mat-input error carent color
+  .mat-form-field-invalid .mat-input-element, .mat-warn .mat-input-element {
+    color: #c71010;
+    caret-color: #c71010;
+  }
+  
+  // mat-label normal state style
+  .mat-form-field-label {
+    color: #5b5b5b;
+    // color: $mainColor!important;
+  }
+  
+  // mat-label focused style
+  .mat-form-field.mat-focused .mat-form-field-label {
+    color: #2d2d2d;
+  }
+  
+  .mat-form-field.mat-focused .mat-input-element {
+    color: #2d2d2d;
+  }
+  
+  // mat-label error style
+  .mat-form-field.mat-form-field-invalid .mat-form-field-label {
+    color: #bd0808;
+  }
+  
+  input.mat-input-element {
+    text-align: left;
+    font: normal normal 600 13px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+  
+  }
+  .text-3 {
+  font: normal normal 600 16px/28px Montserrat;
+  letter-spacing: 0px;
+  color: #3B3B3B;
+  opacity: 1;
+}
+  
+  .mat-datepicker-toggle-active {
+    color: #3B3B3B !important;
+  
+  }
+  
+  .mat-input {
+    color: #3B3B3B !important;
+  
+  }
+  
+  @media (max-width: 750px) {
+  
+    .text-5 {
+  
+      font: normal normal 600 12px/20px Montserrat;
+  
+    }
+    .title-1 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font: normal normal 800 20px/39px Montserrat;
+    }
+    .title-2 {
+      font: normal normal bold 15px/18px Montserrat;
+    }
+    .title-4 {
+      font: normal normal 800 20px/31px Nomada Didone;
+    }
+  
+    .text-1 {
+      font: normal normal bold 18px/39px Montserrat;
+  
+    }
+    .text-2 {
+      font: normal normal 600 14px/37px Montserrat;
+    }
+  
+    .text-3 {
+      font: normal normal 600 11px/28px Montserrat;
+    }
+    .margin {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  
+    .background {
+      background: none;
+    }
+  
+    .panel {
+      background: none;
+      border-radius: 0;
+      box-shadow: none;
+      border: none;
+      width: 100%;
+      opacity: 1;
+      margin-top: 0%;
+      margin-bottom: 0%;
+    }
+  }
+  
+  .header-text {
+    text-align: center;
+    font: normal normal bold 28px/39px Montserrat;
+    letter-spacing: 0px;
+    color: #F56A7D;
+    text-shadow: 0px 3px 6px #F56A7D4D;
+    opacity: 1;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
+  .button {
+    width: 150px;
+    text-align: center;
+    font: normal normal bold 12px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    height: 40px;
+    /* UI Properties */
+    background: var(--primary-color) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #F56A7D80;
+    border-radius: 10px;
+    opacity: 1;
+  
+  }
+  
+  .button-dark {
+    width: 150px;
+    text-align: center;
+    font: normal normal bold 14px/20px Montserrat;
+    letter-spacing: 0px;
+    height: 50px;
+    /* UI Properties */
+    background: #3B3B3B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FFFFFF1A;
+    border-radius: 4px;
+    opacity: 1;
+    color: #FFFFFF;
+  }
+  
+  .alert-1 {
+    text-align: center;
+    font: normal normal normal 16px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #FF6E6E;
+    opacity: 1;
+    background: linear-gradient(165deg, rgba(250, 184, 182, 0.37) 1.8%, rgba(255, 126, 172, 0.37) 115.72%);
+    border-radius: 8px;
+  
+  }
+  
+  .mat-dialog-container {
+    border-radius: 20px !important;
+  }
+  
+  .mat-form-field-flex > .mat-form-field-infix {
+    padding: 0.6em 0px !important;
+  }
+  
+  .mat-form-field-label-wrapper {
+    top: -1.6em;
+  }
+  
+  .mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+    transform: translateY(-1.1em) scale(.80);
+    width: 133.33333%;
+  }
+  
+  input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+  
+  .svg-icon {
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  .fc .fc-button {
+    text-align: center;
+    font: normal normal bold 12px/20px Montserrat;
+    letter-spacing: 0px;
+  
+    /* UI Properties */
+    border-radius: 10px;
+    opacity: 1;
+  }
+  
+  .fc .fc-event {
+    text-align: center;
+    font: normal normal bold 12px/20px Montserrat;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: black;
+  
+  }
+  
+  .fc {
+    color: black;
+    font: normal normal bold 10px/20px Montserrat;
+  }
+  
+  .fc-toolbar h2 {
+    text-align: center;
+    font: normal normal 800 30px/39px Nomada Didone;
+    letter-spacing: 0px;
+    color: var(--primary-color);
+    opacity: 1;
+  }
+  
+  .fc .fc-col-header-cell-cushion {
+    text-align: center;
+    color: #0a0a0a;
+    font: normal normal 300 14px/20px Montserrat;
+  }
+  
+  :root {
+  
+    --fc-daygrid-event-dot-width: 5px;
+  }
+  
+  
+  /* Hide scrollbar by default */
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 0 !important;
+  
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+    height: 0 !important;
+  
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+    height: 0 !important;
+  
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  .snack-bar {
+    background: white;
+    color: black;
+    text-transform: capitalize
+  }
+  
+  .snack-bar button {
+    background-color: transparent;
+    color: var(--primary-color);
+    text-transform: uppercase;
+  }
+  
+  .mat-form-field-outline {
+    min-height: 45px;
+  }
+  
+  .filter-search {
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .seo {
+  
+  }
+  
+  @media (min-width: 0px) {
+    .seo {
+      display: none;
+    }
+  }
+  
+  .icon-instagram {
+    transform: scale(1.7);
+  }
+  
+  .iti {
+    display: block !important;
+    margin-bottom: 20px;
+  }
+  
+  .iti .dropdown-menu.country-dropdown {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-color: #c7cace;
+    margin-top: -1px;
+  }
+  
+  .iti .iti__country-list {
+    box-shadow: none;
+    font-size: 14px;
+    margin-left: 0;
+    width: 244px;
+    max-height: 170px;
+  }
+  
+  .iti__flag-container.open + input {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .iti .search-container input {
+    font-size: 14px;
+    border-color: #c7cace;
+    border-radius: 0;
+    padding: 5px 10px;
+  }
+  
+  .iti .search-container input:focus {
+    outline: none;
+  }
+  
+  @media screen and (max-width: 479px) {
+    .iti .iti__country-list {
+      width: 88.3vw;
+    }
+  }
+  
+  ngx-intl-tel-input input {
+    height: 44px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c7cace;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 100%;
+  }
+  
+  ngx-intl-tel-input.ng-invalid.ng-touched input {
+    border: 1px solid #c0392b;
+  }
+  
+  ngx-intl-tel-input input:hover {
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  ngx-intl-tel-input input:focus {
+    outline: none !important;
+    border-color: #3498db;
+    box-shadow: 0 0 0 0 #000;
+  }
+  
+  ngx-intl-tel-input input::-webkit-input-placeholder {
+    color: #bac2c7;
+  }
+  
+  ngx-intl-tel-input input:-ms-input-placeholder {
+    color: #bac2c7;
+  }
+  
+  ngx-intl-tel-input input::-ms-input-placeholder {
+    color: #bac2c7;
+  }
+  
+  ngx-intl-tel-input input::placeholder {
+    color: #bac2c7;
+  }
+  
+  ngx-intl-tel-input input[disabled] {
+    background-color: #e5eaf1;
+  }
+  
+  /* Importing Bootstrap SCSS file. */
+  @import "~bootstrap/scss/bootstrap";
+  
+  /* Importing Datepicker SCSS file. */
+  @import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";
+  

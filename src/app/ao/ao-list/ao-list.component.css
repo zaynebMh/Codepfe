@@ -1,0 +1,61 @@
+/* Style pour le titre de la liste des appels d'offres */
+h3 {
+  color: #1e3a56; /* Bleu marine */
+  margin-bottom: 20px; /* Marge en bas pour séparer du tableau */
+}
+
+/* Style pour le bouton "Ajouter AO" */
+.btn-add-ao {
+  background-color: #007bff; /* Bleu clair */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px; /* Marge en bas pour séparer du tableau */
+}
+
+/* Style pour le tableau */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style pour l'en-tête du tableau */
+.table th {
+  background-color: #1e3a56; /* Bleu marine */
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Style pour les lignes du tableau */
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Style pour les lignes de données dans le tableau */
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Couleur de fond gris clair pour les lignes paires */
+}
+
+/* Style pour les boutons "Supprimer" et "Editer" */
+.btn-danger, .btn-primary {
+  background-color: #dc3545; /* Rouge pour "Supprimer" */
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Bleu clair pour "Editer" */
+}
+
+/* Style pour les boutons d'action au survol */
+.btn-danger:hover, .btn-primary:hover {
+  opacity: 0.8;
+}

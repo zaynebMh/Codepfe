@@ -1,0 +1,88 @@
+/* Styles globaux pour le corps de la page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f8f9fa; /* Couleur de fond */
+}
+
+/* Conteneur principal pour centrer le contenu */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -50px; /* Réglage de la marge supérieure pour positionner le contenu plus haut */
+}
+
+.login-box {
+  width: 400px; /* Largeur du cadre de connexion */
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre du formulaire de connexion */
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: -10px; /* Déplace légèrement le titre vers le haut */
+}
+
+/* Style pour les messages d'erreur */
+.alert {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dc3545;
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Style pour les groupes de formulaire */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Style pour les libellés de champ */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style pour le bouton de soumission */
+button {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1e3a56;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Animation de transition */
+}
+
+/* Style pour le survol du bouton */
+button:hover {
+  background-color: #0056b3;
+}
+
+.btn-link {
+  margin-top: 10px; /* Ajoute un espacement en haut du bouton "S'inscrire" */
+}

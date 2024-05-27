@@ -1,0 +1,31 @@
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h3>Liste des Factures</h3>
+  <button (click)="createFacture()" class="btn btn-primary btn-add-faacture">Ajouter facture</button>
+</div>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Référence</th>
+      <th>Intitulé</th>
+      <th>Etablissement</th>
+      <th>Montant</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let facture of factures">
+      <td>{{ facture.id }}</td>
+      <td>{{ facture.ref }}</td>
+      <td>{{ facture.intitule }}</td>
+      <td>{{ facture.etablissement }}</td>
+      <td>{{ facture.montant }}</td>
+      <td>
+        <button *ngIf="facture.id !== undefined" (click)="deleteFacture(facture.id!)" class="btn btn-danger">Supprimer</button>
+        <button (click)="editFacture(facture.id)" class="btn btn-sm btn-primary">Editer</button>
+
+      </td>
+    </tr>
+  </tbody>
+</table>

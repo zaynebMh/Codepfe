@@ -1,0 +1,34 @@
+<div class="col-md-6 offset-md-3">
+  <h3>Ajouter une Facture</h3>
+  <form [formGroup]="factureForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="intitule">Intitulé :</label>
+      <input type="text" class="form-control" id="intitule" formControlName="intitule">
+      <div *ngIf="factureForm.get('intitule')?.invalid && factureForm.get('intitule')?.touched" class="invalid-feedback">
+        Intitulé est requis
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="etablissement">Établissement :</label>
+      <input type="text" class="form-control" id="etablissement" formControlName="etablissement">
+      <div *ngIf="factureForm.get('etablissement')?.invalid && factureForm.get('etablissement')?.touched" class="invalid-feedback">
+        Établissement est requis
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="montant">Montant :</label>
+      <input type="number" class="form-control" id="montant" formControlName="montant">
+      <div *ngIf="factureForm.get('montant')?.invalid && factureForm.get('montant')?.touched" class="invalid-feedback">
+        Montant est requis
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="ref">Référence :</label>
+      <input type="number" class="form-control" id="ref" formControlName="ref">
+      <div *ngIf="factureForm.get('ref')?.invalid && factureForm.get('ref')?.touched" class="invalid-feedback">
+        Référence est requis
+      </div>
+    </div>
+    <button class="btn btn-success" type="submit" [disabled]="factureForm.invalid">Enregistrer</button>
+  </form>
+</div>

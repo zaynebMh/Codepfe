@@ -1,0 +1,53 @@
+/* Style pour le conteneur div */
+.col-mmd-6.offset-md-3 {
+  margin-top: 50px; /* Marge supérieure de 50px */
+  padding: 20px; /* Padding intérieur de 20px */
+  background-color: #f9f9f9; /* Couleur de fond gris clair */
+  border-radius: 8px; /* Coins arrondis */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  width: 50%; /* Largeur du formulaire à 50% de la page */
+  margin-left: auto; /* Centrer le formulaire horizontalement */
+  margin-right: auto; /* Centrer le formulaire horizontalement */
+}
+
+/* Style pour le titre h3 */
+.col-mmd-6.offset-md-3 h3 {
+  color: #007bff; /* Couleur du texte bleu */
+  font-size: 24px; /* Taille de police 24px */
+  text-align: center; /* Centrer le texte */
+  margin-bottom: 20px; /* Marge basse de 20px */
+}
+
+/* Style pour les étiquettes label */
+.col-mmd-6.offset-md-3 label {
+  font-weight: bold; /* Texte en gras */
+}
+
+/* Style pour les champs de formulaire input */
+.col-mmd-6.offset-md-3 input[type="text"],
+.col-mmd-6.offset-md-3 input[type="number"] {
+  width: 100%; /* Largeur à 100% */
+  padding: 8px; /* Padding intérieur de 8px */
+  border: 1px solid #ccc; /* Bordure grise de 1px */
+  border-radius: 4px; /* Coins arrondis */
+  margin-bottom: 12px; /* Marge basse de 12px */
+  box-sizing: border-box; /* Inclure le padding dans la largeur */
+}
+
+/* Style pour le bouton submit */
+.col-mmd-6.offset-md-3 button[type="submit"] {
+  display: block; /* Afficher en tant que bloc */
+  width: 100%; /* Largeur à 100% */
+  padding: 10px; /* Padding intérieur de 10px */
+  background-color: #28a745; /* Couleur de fond vert */
+  color: #fff; /* Couleur du texte blanc */
+  border: none; /* Pas de bordure */
+  border-radius: 4px; /* Coins arrondis */
+  font-size: 16px; /* Taille de police 16px */
+  cursor: pointer; /* Curseur pointer au survol */
+}
+
+/* Style pour le bouton submit au survol */
+.col-mmd-6.offset-md-3 button[type="submit"]:hover {
+  background-color: #218838; /* Couleur de fond vert foncé au survol */
+}

@@ -1,0 +1,31 @@
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h3>Liste des Projets</h3>
+  <button (click)="createProjet()" class="btn btn-primary btn-add-projet">Ajouter Projet</button>
+</div>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Référence</th>
+      <th>Intitulé</th>
+      <th>Etablissement</th>
+      <th>Montant</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let projet of projets">
+      <td>{{ projet.id }}</td>
+      <td>{{ projet.ref }}</td>
+      <td>{{ projet.intitule }}</td>
+      <td>{{ projet.etablissement }}</td>
+      <td>{{ projet.montant }}</td>
+      <td>
+        <button *ngIf="projet.id !== undefined" (click)="deleteProjet(projet.id!)"class="btn btn-danger">Supprimer</button>
+        <button (click)="editProjet(projet.id)" class="btn btn-sm btn-primary">Editer</button>
+        <button (click)="viewAos(projet.id)" class="btn btn-sm btn-info">Voir les AO</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

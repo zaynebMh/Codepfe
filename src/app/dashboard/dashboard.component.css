@@ -1,0 +1,119 @@
+.arabic {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  .title-page {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  
+  .line {
+    background: #9B9B9B;
+    height: 1px;
+    width: 100%;
+  
+  }
+  
+  .chart {
+    width: 100%
+  }
+  
+  .div-dashboard {
+    padding: 5% 10%;
+  }
+  
+  .div-stat mat-icon {
+    scale: 0.8;
+  }
+  
+  .div-stat {
+    border: 1px solid #9B9B9B;
+    border-radius: 7px;
+    width: 30%;
+    min-height: 110px;
+    margin: 1.5%;
+    padding: 2%;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    place-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .div-chart {
+    border: 1px solid #9B9B9B;
+    border-radius: 7px;
+    width: 48.5%;
+    margin: 5px;
+  }
+  
+  .text-description {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    place-content: space-between;
+    align-items: flex-start;
+  }
+  
+  
+  .text-3 {
+    line-height: 15px;
+  }
+  
+  @media (max-width: 1100px) {
+    .div-stat {
+      width: 40%;
+      min-height: 100px;
+    }
+  
+    .div-chart {
+      width: 96%;
+    }
+  }
+  
+  
+  
+  @media (max-width: 750px) {
+    .title-page {
+      font-size: 20px;
+    }
+  
+    .chart {
+      width: 100%;
+    }
+  
+    .div-dashboard {
+      padding: 5%;
+    }
+  
+    .div-stat {
+      width: 40%;
+      min-height: 80px;
+    }
+  
+    .div-chart {
+      width: 96%;
+    }
+  
+    .text-description {
+      font-size: 10px;
+    }
+  
+  
+  
+  }
+  .text-3 {
+    font: normal normal 600 16px/28px Montserrat;
+    letter-spacing: 0px;
+    color: #3B3B3B;
+    opacity: 1;
+  }

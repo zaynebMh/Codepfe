@@ -1,0 +1,30 @@
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h3>Liste des appels d'offres</h3>
+  <button (click)="createAo()" class="btn btn-primary btn-add-ao">Ajouter un AO</button>
+</div>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Référence</th>
+      <th>Intitulé</th>
+      <th>Etablissement</th>
+      <th>Montant</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let ao of aos">
+      <td>{{ ao.id }}</td>
+      <td>{{ ao.ref }}</td>
+      <td>{{ ao.intitule }}</td>
+      <td>{{ ao.etablissement }}</td>
+      <td>{{ ao.montant }}</td>
+      <td>
+        <button (click)="deleteAo(ao.id)" class="btn btn-danger">Supprimer</button>
+        <button (click)="editAo(ao.id)" class="btn btn-sm btn-primary">Éditer</button>
+        <button *ngIf="ao.id !== undefined" (click)="viewContrats(ao.id)" class="btn btn-sm btn-info">Contrats</button>      </td>
+    </tr>
+  </tbody>
+</table>

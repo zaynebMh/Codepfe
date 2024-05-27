@@ -1,0 +1,40 @@
+/* Style pour le conteneur du formulaire */
+.col-md-6 {
+  margin-top: 20px;
+}
+
+/* Style pour le titre du formulaire */
+h3 {
+  color: #1e3a56; /* Bleu marine */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style pour les étiquettes des champs */
+label {
+  color: #1e3a56; /* Bleu marine */
+  font-weight: bold;
+}
+
+/* Style pour les champs de formulaire */
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style pour le bouton Enregistrer */
+.btn-success {
+  background-color: #28a745; /* Vert */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style pour le bouton Enregistrer au survol */
+.btn-success:hover {
+  background-color: #218838; /* Vert foncé */
+}

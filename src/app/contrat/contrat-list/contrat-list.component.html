@@ -1,0 +1,31 @@
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h3>Liste des Contrats</h3>
+  <button (click)="createContrat()" class="btn btn-primary btn-add-faacture">Ajouter contrat</button>
+</div>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Référence</th>
+      <th>Intitulé</th>
+      <th>Etablissement</th>
+      <th>Montant</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let contrat of contrats">
+      <td>{{ contrat.id}}</td>
+      <td>{{ contrat.ref }}</td>
+      <td>{{ contrat.intitule }}</td>
+      <td>{{ contrat.etablissement }}</td>
+      <td>{{ contrat.montant }}</td>
+      <td>
+        <button *ngIf="contrat.id !== undefined"  (click)="deleteContrat(contrat.id)" class="btn btn-danger">Supprimer</button>
+        <button (click)="editContrat(contrat.id)" class="btn btn-info">Modifier</button>
+        <button (click)="navigateToFacturesList(contrat.id)" class="btn btn-secondary">Factures</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

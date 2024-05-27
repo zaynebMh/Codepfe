@@ -1,0 +1,22 @@
+<div class="col-md-6 offset-md-3" *ngIf="contrat">
+  <h3>Modifier Contrat</h3>
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="intitule">Intitulé</label>
+      <input type="text" class="form-control" id="intitule" [(ngModel)]="contrat.intitule" name="intitule" required>
+    </div>
+    <div class="form-group">
+      <label for="etablissement">Établissement</label>
+      <input type="text" class="form-control" id="etablissement" [(ngModel)]="contrat.etablissement" name="etablissement" required>
+    </div>
+    <div class="form-group">
+      <label for="ref">Référence</label>
+      <input type="text" class="form-control" id="ref" [(ngModel)]="contrat.ref" name="ref" required>
+    </div>
+    <div class="form-group">
+      <label for="montant">Montant</label>
+      <input type="number" class="form-control" id="montant" [(ngModel)]="contrat.montant" name="montant" required>
+    </div>
+    <button class="btn btn-success" type="submit">Enregistrer</button>
+  </form>
+</div>

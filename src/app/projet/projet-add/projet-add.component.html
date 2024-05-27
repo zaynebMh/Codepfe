@@ -1,0 +1,35 @@
+<div class="col-md-6 offset-md-3">
+  <h3>Ajouter un Projet</h3>
+  <form (ngSubmit)="onSubmit()" [formGroup]="projetForm">
+    <div class="form-group">
+      <label for="intitule">Intitulé</label>
+      <input type="text" class="form-control" id="intitule" formControlName="intitule" required>
+      <div *ngIf="projetForm.get('intitule')?.value" class="invalid-feedback">
+        Intitulé est requis
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="etablissement">Établissement</label>
+      <input type="text" class="form-control" id="etablissement" formControlName="etablissement" required>
+      <div *ngIf="projetForm.get('etablissement')?.value && projetForm.get('etablissement')?.value" class="invalid-feedback">
+        Établissement est requis
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="montant">Montant</label>
+      <input type="number" class="form-control" id="montant" formControlName="montant"required>
+      <div *ngIf="projetForm.get('montant')?.value && projetForm.get('montant')?.value" class="invalid-feedback">
+        Montant est requis
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="ref">Référence</label>
+      <input type="number" class="form-control" id="ref" formControlName="ref" required>
+      <div *ngIf="projetForm.get('ref')?.invalid && (projetForm.get('ref')?.value || projetForm.get('ref')?.touched)" class="invalid-feedback">
+        Référence est requis
+      </div>
+    </div>
+
+    <button class="btn btn-success" type="submit" [disabled]="projetForm.invalid">Enregistrer</button>
+  </form>
+</div>

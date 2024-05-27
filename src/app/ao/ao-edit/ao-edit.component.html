@@ -1,0 +1,22 @@
+<div class="col-md-6 offset-md-3" *ngIf="ao">
+  <h3>Modifier Avis d'Opportunité</h3>
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label >Intitulé</label>
+      <input type="text" class="form-control" id="intitule" [(ngModel)]="ao.intitule" name="intitule">
+    </div>
+    <div class="form-group">
+      <label>Établissement</label>
+      <input type="text" class="form-control" id="etablissement" [(ngModel)]="ao.etablissement" name="etablissement">
+    </div>
+    <div class="form-group">
+      <label for="ref">Référence</label>
+      <input type="text" class="form-control" id="ref" [(ngModel)]="ao.ref" name="ref">
+    </div>
+    <div class="form-group">
+      <label for="montant">Montant</label>
+      <input type="number" class="form-control" id="montant" [(ngModel)]="ao.montant" name="montant">
+    </div>
+    <button class="btn btn-success" type="submit">Soumettre</button>
+  </form>
+</div>

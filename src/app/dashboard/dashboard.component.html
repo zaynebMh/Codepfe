@@ -1,0 +1,62 @@
+<div class="div-dashboard" fxLayout="column" fxLayoutAlign="start start">
+  <div class="title-page">Pilot project Dashboard</div>
+  <div fxLayoutAlign="center start" style="width: 100%; flex-flow: wrap; display: flex;">
+    <div class="div-stat">
+      <div class="text-3">les avis des opportunité</div>
+      <div class="text-3">{{ nbao }}</div>
+    </div>
+    <div class="div-stat">
+      <div class="text-3">Nombre de projets</div>
+      <div class="text-3">{{ nbProjets }}</div>
+    </div>
+    <div class="div-stat">
+      <div class="text-3">Nombre des contrats</div>
+      <div class="text-3">{{ nbContrat }}</div>
+    </div>
+  </div>
+  <div fxLayout="row wrap" style="width: 100%; display: flex;">
+    <!-- Graphiques -->
+    <div class="div-chart equal-charts">
+      <div class="text-3" style="margin: 2%">Chiffre d'affaire des projets par établissement</div>
+      <canvas id="myChart3" class="chart"></canvas>
+    </div>
+    <div class="div-chart equal-charts">
+      <div class="text-3" style="margin: 2%">Statistiques des Factures et Contrats</div>
+      <canvas id="myChart2" class="chart"></canvas>
+    </div>
+  </div>
+  <div fxLayout="row wrap" style="width: 100%; display: flex;">
+    <!-- Graphique Coût des Projets par Établissement -->
+    <div class="div-chart equal-charts">
+      <div class="text-3" style="margin: 2%">Coût des Projets par Établissement</div>
+      <canvas id="myChart" class="chart"></canvas>
+    </div>
+    <!-- Détails des établissements -->
+    <div class="div-chart equal-charts">
+      <div class="text-3" style="margin: 2%">Etablissement</div>
+      <div class="line"></div>
+      <div *ngFor="let etablissement of etablissements" style="margin: 3%">
+        <div fxLayout="row" fxLayoutAlign="start center">
+          <div fxFlex="50" class="text-3" style="font-weight: 500;">{{ etablissement.nom }}</div>
+          <div fxFlex="50" class="text-3">{{ etablissement.cout_facture }} TND</div>
+          <div fxFlex="50" class="text-3">{{ etablissement.cout_contrat }} TND</div>
+          <div fxFlex="50" class="text-3">{{ etablissement.cout_projet }} TND</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div fxLayout="row wrap" style="width: 100%; display: flex;">
+    <!-- Détails des comptes -->
+    <div class="div-chart equal-charts">
+      <div class="text-3" style="margin: 2%">Gestion des comptes</div>
+      <div class="line"></div>
+      <div *ngFor="let compte of comptes" style="margin: 3%">
+        <div fxLayout="row" fxLayoutAlign="start center">
+          <div fxFlex="50" class="text-3" style="font-weight: 500;">{{ compte.nom }}</div>
+          <div fxFlex="50" class="text-3">{{ compte.email }}</div>
+          <div fxFlex="50" class="text-3">{{ compte.role }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

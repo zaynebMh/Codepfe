@@ -1,0 +1,38 @@
+<div class="col-md-6 offset-md-3">
+  <h3>Ajouter un AO</h3> 
+  <form [formGroup]="aoForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="intitule">Intitulé :</label>
+      <input type="text" class="form-control" id="intitule" formControlName="intitule" required>
+      <div *ngIf="aoForm.get('intitule')?.invalid && aoForm.get('intitule')?.touched" class="text-danger">
+        Intitulé est requis.
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label for="etablissement">Établissement :</label>
+      <input type="text" class="form-control" id="etablissement" formControlName="etablissement" required>
+      <div *ngIf="aoForm.get('etablissement')?.invalid && aoForm.get('etablissement')?.touched" class="text-danger">
+        Établissement est requis.
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label for="montant">Montant :</label>
+      <input type="number" class="form-control" id="montant" formControlName="montant" required>
+      <div *ngIf="aoForm.get('montant')?.invalid && aoForm.get('montant')?.touched" class="text-danger">
+        Montant est requis.
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label for="ref">Référence :</label>
+      <input type="text" class="form-control" id="ref" formControlName="ref" required>
+      <div *ngIf="aoForm.get('ref')?.invalid && aoForm.get('ref')?.touched" class="text-danger">
+        Référence est requise.
+      </div>
+    </div>
+    
+    <button class="btn btn-success" type="submit" [disabled]="aoForm.invalid">Enregistrer</button>
+  </form>
+</div>
